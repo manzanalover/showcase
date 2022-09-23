@@ -22,22 +22,39 @@ body {
 
 .showcase {
 
-    width: 56em;
+    width: 60em;
     /* background-color: crimson; */
 
     height: 100vh;
 
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     align-items: center;
     justify-content: center;
     background-color: red;
 
 }
 
-.contenedorShowcase {
-    height: 22em;
-    width: 48em;
+.grid-item{
+
+    height: 10em;
+    width: 10em;
+    background-color: aliceblue;
+
+    
+}
+
+.grid-item2{
+    height: 10em;
+    width: 10em;
+    background-color: chartreuse;
+
+    
+}
+
+/* .contenedorShowcase {
+    height: 60em;
+    width: 50em;
     background-color: dodgerblue;
 
     display: flex;
@@ -45,17 +62,29 @@ body {
     justify-content: center;
     align-items: center;
 
-}
+} */
 
-.contenedorItem {
+/* .contenedorItem {
 
-    width: 14em;
+    width: 10em;
+    height: 10em;
 
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: coral;
 }
+
+.contenedorItem2 {
+
+    width: 10em;
+    height: 10em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+} */
 
 .imagenDisplay {
     height: 10em;
