@@ -11,8 +11,10 @@ body {
 
 .general {
 
+
+
     display: flex;
-    flex-direction: row;
+    flex-direction: center;
     justify-content: center;
     align-items: center;
     background-color: blue;
@@ -40,6 +42,9 @@ body {
     height: 10em;
     width: 10em;
     background-color: aliceblue;
+    border-radius: 20%;
+    border: 0.2em black;
+    border-style: solid;
 
     
 }
@@ -48,6 +53,9 @@ body {
     height: 10em;
     width: 10em;
     background-color: chartreuse;
+    border-radius: 20%;
+    border: 0.2em black;
+    border-style: ridge;
 
     
 }
